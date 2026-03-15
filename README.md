@@ -178,6 +178,9 @@ git push origin skill/openclaw-troubleshooting/v0.1.0
 ### 4) 为什么命令复制后不能运行
 常见原因是跨终端混用语法（例如把 Bash 命令放到 PowerShell 运行）。请按当前终端选择对应代码块。
 
+### 5) 我想直接从 tags 页面下载 Skill 压缩包
+可在 [tags 页面](https://github.com/ZeusDong/my-skills/tags) 选择对应版本下载；解压后请手动将目录名中的版本号后缀删除（例如把 `openclaw-troubleshooting-v0.1.0` 改为 `openclaw-troubleshooting`）。
+
 ## 延伸文档
 - 完整治理规则：`docs/skills-governance.md`
 - 建议在每次提交前都执行：`scripts/validate-governance.*`
