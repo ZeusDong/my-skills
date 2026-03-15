@@ -1,0 +1,17 @@
+name: Skills Governance
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  validate-governance:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Validate repository governance
+        run: bash scripts/validate-governance.sh
