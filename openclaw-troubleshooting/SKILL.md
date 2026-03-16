@@ -1,6 +1,6 @@
 ---
 name: openclaw-troubleshooting
-description: 独立的 OpenClaw 诊断助手，用于安装、升级、gateway、日志、安全等问题的交互式排查；即使 OpenClaw 挂掉也能使用；当用户遇到 OpenClaw 部署失败、升级异常、通道不响应或安全顾虑时使用。
+description: 独立的 OpenClaw 诊断助手（别名：open claw、OC、小龙虾、龙虾），用于安装/部署失败、升级异常、gateway/通道故障、日志报错、安全事件排查；也适用于“连不上”“不响应”“报错”等故障表达；仅在运维与故障排查语境下使用。
 ---
 
 # OpenClaw 问题排查技能
